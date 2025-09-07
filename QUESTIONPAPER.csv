@@ -1,0 +1,129 @@
+year,examtype,csv_id,sub,question,topic,type
+2023,CAT1,1,Computer Networks,"Identify one or more layers of the OSI model that carry out the following responsibilities and explain them in detail:     i) Transmission of bit stream across physical medium.
+ii) Defines Frames                                                                            iii)Error correction and retransmission.                                         iv) Reliable Process-to-process message delivery.
+v) Route selection.
+vi) Provides user services such as e-mail and file transfer.",OSI MODEL,Theory and Conceptual
+2023,CAT1,2,Computer Networks, Compare and contrast star and mesh topologies using suitable examples.,TOPOLOGY,Theory and Conceptual
+2023,CAT1,3,Computer Networks,"Assume that processing delay, queuing delay and control overhead-bits are ignored. Consider the message size as 30,000 bits, the propagation time is 10ms per hop, packet length is 1000 bits, transmission rate per hop is 10000 bps and call set-up time is 2ms.Find the total time for both the circuit and packet switching networks when number of intermediate nodes as (i) 2, (ii) 5, (iii) 10, (iv) 50, (v) 100. Also, comment on the network performance in terms of the total delay in both the switching networks when the number of intermediate nodes increases",CIRCUIT AND PACKET SWITCHING,Numerical
+2023,CAT1,4,Computer Networks,"Consider an Internet application running on two Internet hosts, Host1 and Host2, which are communicating using a path through router R. Assume that the average service time (queuing and processing delay) at R is 15 ms, packets are 6,000 bits long and the propagation delay between Hostl and Host2 is 250ms. Also, ignore the control overhead.",CIRCUIT AND PACKET SWITCHING,Numerical
+2024,CAT1,5,Artificial Intelligence,"Design PEAS for the following artificial intelligent agents.
+i) Taxi driver agent 
+ii) Automated robot in a manufacturing plant.          
+iii) Playing soccer 
+iv) Bidding an item on an auction 
+v) Shopping for used AI books on the Internet ",PEAS,Theory and Conceptual
+2024,CAT1,6,Artificial Intelligence,"Consider the project developed by Google, codenamed Waymo. Waymo has 
+successfully deployed self-driving cars with advanced sensors and implemented 
+AI-based model algorithms in their decision-making process. These 
+autonomous vehicles navigate the roads, making decisions based on percept 
+history and real-time sensory input ï¿½ the ability to make informed decisions 
+based on historical data and real-time perceptual input received from the 
+environments. Identify the most suitable model and explain how it fits this 
+scenario where a decision has been made based on the perception of events that 
+happened. ",AI MODEL,Thinking and Conceptual
+2024,CAT1,7,Artificial Intelligence,"a) Suppose a genetic algorithm uses chromosomes of the form x = abcdefgh 
+with a fixed length of eight genes. Each gene can be any digit between 0 
+and 9. Let the fitness of individual x be calculated as: 
+ f(x)=(a+b)-(c+d)+(e+f)-(g+h)
+and let the initial population consist of four individuals with the following 
+chromosomes: 
+x1 = 6 5 4 1 3 5 3 2 
+x2 = 8 7 1 2 6 6 0 1 
+x3 = 2 3 9 2 1 2 8 5 
+x4 = 4 1 8 5 2 0 9 4 
+ 
+Evaluate each individual's fitness, showing all your workings and arrange 
+them in order with the fittest first and the least fit last.
+b) With a neat sketch of the hill-climbing algorithm's state-space landscape, 
+explain why the hill-climbing search gets struck. List the variants of the hill 
+climbing algorithm and describe how they overcome this problem",GENETIC ALGORITHM,Analysis and Concetual
+2024,CAT1,8,Artificial Intelligence,"You are given with five different tasks like  
+(i) Crossword puzzle 
+(ii) N Queens Problem
+(iii)  Tower of Hanoi 
+(iv) Ludo 
+List the PEAS description and the properties for the given tasks to their 
+environment characteristics with suitable justification. ",PEAS,Theory and Conceptual
+2024,CAT1,9,Artificial Intelligence,"A taxi company wants to optimize its drivers' routes to reduce fuel 
+consumption, minimize travel time, and enhance customer satisfaction. List 
+the challenges and plans in developing an AI system for a real-time route 
+optimization system that assists drivers in selecting the most efficient routes 
+while considering dynamic factors like traffic, road conditions, toll plazas 
+and weather conditions? Discuss with diagram the most suitable type of 
+agent that can be used for this type of system. ",AI AGENT,Thinking and Conceptual
+2024,CAT1,10,Artificial Intelligence,"Show that hill-climbing approach suffers from local optima in solving a 
+problem. Use a global heuristic function to solve the same problem to reach 
+the goal state.",HILL CLIMBING,Theory and Conceptual
+2024,CAT1,11,Artificial Intelligence,"a) Describe different approaches to Artificial Intelligence. List the timeline of the evolution of artificial intelligence and briefly describe each period/breakthrough.
+b) Consider an artificial agent learning to play chess, where the agent learns the game's rules and optimal moves through multiple plays and feedback from critics. Which type of agent would be most suitable for a chess-playing agent? Justify your answer. Also, briefly describe the agent architecture with a suitable diagram.",AI AGENT,Theory and Conceptual
+2024,CAT1,12,Artificial Intelligence,"Describe the task environments and their characteristics for the following agents.
+i. Rental Bike/Car booking
+ii. Cooking Robot
+iii. Grocery Delivery
+iv. Playing Chess",PEAS,Theory and Conceptual
+2024,CAT1,13,Artificial Intelligence,Explain each step of the genetic algorithm with correct terminology in detail using the eight-queen problem and appropriate examples. Calculations must be provided along with the steps when necessary.,GENETIC ALGORITHM,Theory and Conceptual
+2024,CAT1,14,Artificial Intelligence,"Illustrate the PEAS components and classify the environment type for
+the provided scenarios.
+a) Customer browsing an online shopping website
+b) Chatbot customer service
+c) Home automation system",PEAS,Theory and Conceptual
+2024,CAT1,15,Artificial Intelligence,"a) Consider a scenario where a bank wants to enhance its fraud
+detection system. Justify how AI can identify fraudulent transactions,
+prevent money laundering and improve risk assessment.
+b) Illustrate how the subfield of AI Expert system works and where is it
+typically applied?",AI AGENT,Analysis and Concetual
+2024,CAT1,16,Artificial Intelligence,"A manufacturing plant aims to create an optimal production schedule
+that reduces production time and efficiently utilizes resources. Discuss
+how hill climbing could be applied to determine a feasible schedule,
+highlighting potential obstacles. Also, illustrate how simulated
+annealing can be used to overcome suboptimal solutions and achieve a
+better schedule.",SIMULATED ANNEALING,Theory and Conceptual
+2023,CAT1,17,Artificial Intelligence,"a) Explain in detail about any 10 applications of AI.
+b) Explain the following (1) Model based Agent (2) Goal based agent",AI AGENT,Theory and Remember
+2023,CAT1,18,Artificial Intelligence,"a) Discuss the properties of task environment.
+b) For each of the following activities, give a PEAS description of the task environment.
+ï¿½ Playing soccer.
+ï¿½ Exploring the subsurface oceans of Titan.
+ï¿½ Shopping for used AI books on the Internet.",PEAS,Theory and Conceptual
+2025,CAT1,19,Artificial Intelligence,"An Al agent is supposed to manage the energy consumption of a smart home. The agent's objective is to minimize the electricity bill while ensuring the residents' comfort. It has access to weather forecasts, real-time electricity pricing from the grid, and sensors in each room (temperature, occupancy). It can control the heating, ventilation, and air conditioning (HVAC) system, the smart lighting, and high-consumption appliances like the dishwasher and washing machine.
+What is the correct PEAS categorization for this agent? Classify this task environment according to the following properties- Deterministic vs. Stochastic, Static vs. Dynamic, and Episodic vs. Sequential, and briefly justify your choices. What strategy should the agent adopt to effectively balance cost minimization with maintaining comfort?",PEAS ,Analysis and Concetual
+2024,FAT,20,Computer Networks,"A company wants to design a network for its new office building that spans four floors. The IT team needs to connect various departments such as finance, HR, and engineering located on different floors. The network must support high-speed internet access, secure communications, and the ability to handle large amounts of data being transferred within the office.
+The following requirements must be met.
+a) Each department should have its own dedicated segment to reduce traffic congestion.
+b) The network should be scalable to accommodate future expansions.
+c) Security is important, so there must be provisions for isolating department and preventing unauthorized access to data.
+d) A wireless network should cover common areas like the lobbyï¿½andï¿½cafeteria.",VLAN ,Technical and Conceptual
+2024,FAT,21,Computer Networks,") Stored on a flash memory device is a 200 megabyte (MB) message to be transmitted by an e-mail from one server to another, passing three nodes of a connectionless network. This network forces packets to be of size 10KB, excluding a packet header of 40 bytes. Nodes are 400 miles apart, and servers are 50 miles away from their corresponding nodes. All transmission links are of type 100Mb/s. The processing time at each node is 0.2 seconds.
+
+i. Find the propagation delays per packet between a server and a node and [3] between nodes.
+
+ii. Find the total time required to send this message.",DELAY AND THROUGHPUT ANALYSIS,Numerical
+2024,FAT,22,Computer Networks,Compare and contrast Circuit Switching and packet Switching,CIRCUIT AND PACKET SWITCHING,Theory and Conceptual
+2023,FAT,22,Computer Networks, A defence organization is planning to have the network built for their newly constructed office. There are 3 scientists working on confidential projects. Each scientist has a team of 5 engineers. Sketch a suitable topology with justification.,TOPOLOGY,Analysis and Concetual
+2023,FAT,23,Computer Networks,"A company is hiring freshers to work on the Application layer and Transport layer. Identify any 4 protocols with their purpose, which the candidate has to be familiar to be eligible for the job.",PROTOCOL,Analysis and Concetual
+2023,FAT,24,Computer Networks,"a) In a wireless communication system, a sensor node is transmitting temperature data of 7 bits to a base station. To ensure reliable transmission, Hamming code with even parity is applied to each temperature data. The data received on the receiving end is 01010111101. Identify any error and mention the steps to correct it.",ERROR DETECTION AND CORRECTION / HAMMING CODES,Numerical
+2023,FAT,25,Computer Networks,"a) The data captured from Wireshark tool is given below. Show the IPv4 header format with values given.
+DX4500004da548000080110000c0a82b7fc0a82b01
+b) Analyse if the data is fragmented or corrupted with justification.",IP ADDRESS,Numerical
+2023,FAT,26,Computer Networks,"A network uses the 172.12.0.0 class B address. There is a requirement to support 459 hosts per subnet, while accommodating the maximum number of subnets.
+Construct the subnet mask and the IP layout for 4 valid subnets with details of the first address, range of address and the broadcast address.",SUBNET MASK,Numerical
+2023,FAT,27,Computer Networks,Differentiate closed loop and open loop congestion control by quoting 2 mechanisms from each method.,CONGESTION CONTROL.,Theory and Conceptual
+2024,CAT2,28,Computer Networks,"a) Assuming N stations are present in pure Aloha Network, having a bandwidth of
+56Kb/Sec find the value of N, assuming that each station sends data of size 1000
+bits at an average interval of 100 sec.
+b) X is working as a Business Development Lead in a leading MNC and keeps
+traveling frequently. X is also given the task to attend online meetings even in transit.
+An urgent meet was called for when X was about to board his flight and there was
+a poor network in his mobile. X contacted the helpdesk requesting for internet
+connection. Which IEEE standard would help to connect to the airline’s internet
+service? Enumerate the architecture involved in connecting to the airline’s internet service.",WIRELESS NETWORKS / IEEE 802.11 STANDARDS,Numerical
+2024,CAT2,29,Computer Networks,"a. Consider an IP packet with a length 4500 bytes that includes a 20-byte IPv4 header and a 40-byte TCP header. The packet is forwarded to an IPV4 router that supports a Maximum Transmission unit MTU of 600 bytes. Assume that the length of the header in all the outgoing fragments of this packet is 20 bytes. Assume that the
+fragmentation offset value store in the first fragment is 0. What is the fragmentation offset stored in the third fragment?
+b. A CEO of a company needs a privacy in maintaining the number of hosts for his company to the public network with a single IP address. What is the networking technology required for the above and explain the same?",IP FRAGMENTAION,Numerical
+2024,CAT2,30,Computer Networks," Draw the sender and receiver windows for a system using Selective Repeat
+ARQ (3-bits for sequence number), given the following:
+i) Frame 0 is sent; frame 0 is acknowledged.
+ii) Frame 1 and 2 are sent; frames 1 and 2 are acknowledged.
+iii) Frame 3, 4 and 5 are sent; frame 4 is acknowledged; timer for frame 5
+expires.
+iv) Frame 5, 6 and 7 are sent; frames 4 through 7 are acknowledged",SLIDING WINDOW PROTOCOLS,Numerical
